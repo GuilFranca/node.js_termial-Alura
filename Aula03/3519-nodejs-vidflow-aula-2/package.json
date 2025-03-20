@@ -4,12 +4,17 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-local": "json-server --watch backend/videos.json",
+    "checando-codigo": "eslint ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.52.0",
+    "@eslint/js": "9.22.0",
+    "eslint": "8.57.1",
+    "globals": "16.0.0",
+    "json-server": "0.17.4",
     "prettier": "3.0.3"
   }
 }
